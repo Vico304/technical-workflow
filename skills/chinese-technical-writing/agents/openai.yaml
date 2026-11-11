@@ -1,0 +1,6 @@
+interface:
+  display_name: "中文技术表达"
+  short_description: "负责中文技术文字交付，统一语义、证据与表达规则，让结论和操作依据清楚自然"
+  default_prompt: "使用 $chinese-technical-writing 完成当前中文技术写作任务，遵守起草、改写、审阅或排版的范围，保留事实、必要条件和证据强度。"
+policy:
+  allow_implicit_invocation: true

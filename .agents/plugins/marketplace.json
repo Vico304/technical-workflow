@@ -1,0 +1,21 @@
+{
+  "name": "technical-workflow",
+  "interface": {
+    "displayName": "技术协作与中文写作"
+  },
+  "plugins": [
+    {
+      "name": "technical-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Vico304/technical-workflow.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

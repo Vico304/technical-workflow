@@ -1,0 +1,21 @@
+{
+  "name": "technical-workflow",
+  "version": "0.1.0",
+  "description": "技术协作与中文技术写作：工程决策、实现、操作、验证，以及语义保真、证据表达和操作文档。",
+  "author": {
+    "name": "Vico304"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "技术协作与中文写作",
+    "shortDescription": "工程判断、实现与验证，以及准确自然的中文技术表达",
+    "longDescription": "组合 technical-collaboration 与 chinese-technical-writing，分别负责工程工作和中文技术文字交付，并保留两者的职责边界与配套细则。",
+    "defaultPrompt": [
+      "请使用技术判断与工程协作技能处理当前工程任务。",
+      "请使用中文技术表达技能改写以下技术文档，保留事实、条件和证据强度。"
+    ],
+    "developerName": "Vico304",
+    "category": "Other",
+    "capabilities": []
+  }
+}

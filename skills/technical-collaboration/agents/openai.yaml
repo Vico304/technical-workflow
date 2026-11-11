@@ -1,0 +1,6 @@
+interface:
+  display_name: "技术判断与工程协作"
+  short_description: "负责技术选型、实现、部署操作与验证，保持操作透明，按当前需求控制投入"
+  default_prompt: "使用 $technical-collaboration 完成当前工程任务，在当前约束与证据范围内作出判断，让实现、操作和验证易于理解和接管。"
+policy:
+  allow_implicit_invocation: true
